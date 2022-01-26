@@ -1,0 +1,183 @@
+.inner__contents {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.first__content {
+	width: 500px;
+	margin-bottom: 20px;
+}
+
+.first__div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.first__div > h1,
+.first__div > p {
+	text-align: center;
+}
+
+h1 span,
+p span {
+	color: #4de897;
+}
+
+.form__div {
+	background-color: #ffffff;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.082937);
+	border-radius: 6px;
+	margin-bottom: 10px;
+}
+
+.name {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.MuiButton-root {
+	width: 100%;
+	box-shadow: 0px 4px 10px rgba(118, 212, 45, 0.3);
+	border-radius: 3px;
+	margin-bottom: 20px;
+}
+
+.login__here {
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	margin: 20px;
+}
+
+.terms {
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+	color: #97a19d;
+	margin: 20px;
+}
+
+@media screen and (min-width: 320px) {
+	.name {
+		display: flex;
+		flex-direction: column;
+	}
+	.name > .MuiTextField-root,
+	.other > .MuiTextField-root {
+		width: 300px;
+		margin-bottom: 10px;
+		outline-color: #4de897;
+	}
+
+	.body__inner {
+		width: 300px;
+		min-height: 90vh;
+	}
+	.form__div {
+		width: 300px;
+		padding: 10px;
+	}
+	form {
+		width: 300px;
+	}
+
+	.second__content {
+		width: 280px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.terms {
+		width: 300px;
+	}
+}
+
+@media screen and (min-width: 360px) {
+	.body__inner {
+		width: 340px;
+	}
+}
+
+@media screen and (min-width: 540px) {
+	.other > .MuiTextField-root {
+		width: 100%;
+		margin: 10px;
+		outline-color: #4de897;
+	}
+
+	.second__content {
+		width: 500px;
+	}
+
+	.terms {
+		width: 400px;
+	}
+
+	.body__inner {
+		width: 500px;
+	}
+
+	.form__div {
+		width: 400px;
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	form {
+		width: 350px;
+	}
+	.name {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.other {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.other > .MuiTextField-root {
+		width: 100%;
+		margin-bottom: 10px;
+		outline-color: #4de897;
+	}
+
+	.name > .MuiTextField-root {
+		width: 170px;
+		outline-color: #4de897;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.body__inner {
+		width: 700px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.body__inner {
+		width: 950px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.body__inner {
+		width: 1312px;
+	}
+}

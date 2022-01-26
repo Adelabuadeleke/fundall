@@ -1,0 +1,34 @@
+.first__content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.first__div > img {
+	margin-bottom: 20px;
+}
+
+.custom {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+form > .MuiTextField-root {
+	width: 100%;
+	margin-bottom: 20px;
+	outline-color: #4de897;
+}
+
+.holla > h1 {
+	font-size: 34px;
+	line-height: 43px;
+}
+
+.holla > p {
+	font-size: 20px;
+	line-height: 25pxpx;
+}
+
+.holla {
+	margin-bottom: 30px;
+}
